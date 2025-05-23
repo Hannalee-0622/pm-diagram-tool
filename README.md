@@ -1,10 +1,10 @@
-# 📊 Project Progress Map
+# Project Progress Map
 
 **English / 한국어**
 
 ---
 
-## 🚀 Project Overview / 프로젝트 개요
+## Project Overview / 프로젝트 개요
 
 **EN:**
 Project Progress Map is a web application that generates interactive flow-chart diagrams based on user-provided keywords and date ranges. It uses OpenAI’s GPT API to plan out project tasks, structures them as nodes, and renders them with React Flow. Users can edit, connect, and annotate tasks in real time, then save or share their diagrams.
@@ -37,7 +37,7 @@ Project Progress Map는 사용자가 입력한 키워드와 기간을 바탕으�
 
 ---
 
-## ⚙️ Prerequisites / 요구사항
+## Prerequisites / 요구사항
 
 * **Node.js** ≥ 18.x
 * **npm** 또는 **yarn**
@@ -48,7 +48,7 @@ Project Progress Map는 사용자가 입력한 키워드와 기간을 바탕으�
 
 ---
 
-## 📦 Installation / 설치
+## Installation / 설치
 
 1. **Clone the repository / 저장소 복제**
 
@@ -110,7 +110,7 @@ Project Progress Map는 사용자가 입력한 키워드와 기간을 바탕으�
 
 ---
 
-## ▶️ Running Locally / 로컬 실행
+## Running Locally / 로컬 실행
 
 1. **Django 서버 기동**
 
@@ -133,7 +133,7 @@ Project Progress Map는 사용자가 입력한 키워드와 기간을 바탕으�
 
 ---
 
-## 🚢 Build & Deployment / 빌드 & 배포
+## Build & Deployment / 빌드 & 배포
 
 ### Docker
 
@@ -160,7 +160,7 @@ flyctl deploy
 
 ---
 
-## 📂 Directory Structure / 디렉토리 구조
+## Directory Structure / 디렉토리 구조
 
 ```
 pm-diagram-tool/
@@ -181,7 +181,7 @@ pm-diagram-tool/
 
 ---
 
-## 🔑 Environment Variables / 환경 변수
+## Environment Variables / 환경 변수
 
 | 변수               | 설명                               |
 | ---------------- | -------------------------------- |
@@ -192,7 +192,6 @@ pm-diagram-tool/
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the **MIT License**.
-본 프로젝트는 **MIT 라이선스** 하에 배포됩니다.
