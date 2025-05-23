@@ -1,0 +1,27 @@
+/* src/DiagramPage.css */
+
+/* 다이어그램 SVG 백그라운드가 마우스 이벤트를 차단하지 않도록 */
+.react-flow__pane>svg {
+    pointer-events: none !important;
+}
+
+/* 노드 요소와 그 자식만 클릭 이벤트를 받도록 허용 */
+.react-flow__node {
+    pointer-events: all !important;
+}
+
+.react-flow__node foreignObject,
+.react-flow__node div {
+    pointer-events: all !important;
+}
+
+.react-flow__renderer,
+.react-flow__pane>svg {
+    pointer-events: none !important;
+}
+
+/* 노드 영역과 내부 div는 클릭 가능하도록 */
+.react-flow__node,
+.react-flow__node * {
+    pointer-events: all !important;
+}
