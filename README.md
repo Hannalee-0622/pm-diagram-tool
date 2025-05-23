@@ -14,7 +14,7 @@ Project Progress Map는 사용자가 입력한 키워드와 기간을 바탕으�
 
 ---
 
-## ✨ Features / 주요 기능
+## Features / 주요 기능
 
 * **Automatic Diagram Generation / 자동 다이어그램 생성**
 
