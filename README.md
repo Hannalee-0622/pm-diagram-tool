@@ -14,26 +14,31 @@ Project Progress Map는 사용자가 입력한 키워드와 기간을 바탕으�
 
 ---
 
-## Features / 주요 기능
+## 주요 기능 (Features)
 
-* **Automatic Diagram Generation / 자동 다이어그램 생성**
+* **자동 다이어그램 생성 / AI‑Powered Diagram Generation**
+  입력된 키워드와 기간에 따라 AI가 역할(Role)과 업무(Task) 스펙을 생성합니다.
+  Generates a JSON spec of roles and tasks based on the provided keyword and date range.
 
-  * GPT API 호출로 업무 흐름을 계획하고 노드/엣지 스펙을 생성
-* **Interactive Editing / 상호작용 편집**
+* **REST API 통신 / REST API Integration**
+  백엔드와 통신하여 생성된 다이어그램 스펙을 저장하고 불러옵니다.
+  Uses REST endpoints to save and fetch diagram specs in JSON format.
 
-  * 노드 추가·삭제·이동, 엣지 연결, 상태(진행중/완료) 변경
-* **Comments & Metadata / 코멘트 & 메타데이터**
+* **시각적 편집 / Interactive Visual Editing**
+  React Flow 기반의 드래그 & 드롭, 엣지 추가/삭제, Dagre 레이아웃 자동 조정 기능 지원.
+  Provides an interactive React Flow canvas with drag-and-drop nodes, edge management, and auto-layout via Dagre.
 
-  * 각 노드에 코멘트 입력, 모델명·역할 등의 속성 표시
-* **Bi-lingual UI / 한·영 인터페이스**
+* **노드 상태 관리 / Node State Management**
+  진행 중(In‑Progress) 및 완료(Complete) 상태를 색상과 아이콘으로 시각화하며, 각 노드에서 상태 변경, 수정, 삭제, 코멘트 입력이 가능합니다.
+  Visually distinguishes node states (In‑Progress, Complete) with color and icons; supports editing, deleting, and commenting on nodes.
 
-  * 한국어(`ko`)와 영어(`en`) 모드 지원
-* **Persistent Storage / 영속화**
+* **다국어 지원 / Multilingual Support**
+  UI 문구(버튼, 에러 메시지 등)를 한국어(ko)와 영어(en)로 표시하여 다양한 사용자 환경을 제공합니다.
+  Switches UI labels (buttons, alerts, messages) between Korean and English based on user selection.
 
-  * Django 백엔드 + SQLite/PostgreSQL로 다이어그램 스펙 저장
-* **Frontend-Backend Unified Deployment / 통합 배포**
-
-  * Docker, Fly.io, Netlify 등으로 프론트·백엔드 함께 배포 가능
+* **링크 복사 및 공유 / Link Copy & Sharing**
+  현재 다이어그램 페이지 URL을 클립보드에 복사하여 간편하게 공유할 수 있습니다.
+  Copies the current diagram page URL to the clipboard for easy sharing.
 
 ---
 
