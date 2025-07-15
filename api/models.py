@@ -8,4 +8,4 @@ class Diagram(models.Model):
     end_date = models.DateField()
     spec = jsonfield.JSONField()  # 또는 models.JSONField() (Django 3.1 이상이면 가능)
 
-    created_at = models.DateTimeField(auto_now_add=True)  # 👈 이 줄 추가
+    created_at = models.DateTimeField(auto_now_add=True)  
