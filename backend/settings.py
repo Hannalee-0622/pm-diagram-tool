@@ -83,12 +83,13 @@ TEMPLATES = [
     },
 ]
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'frontend' / 'dist',                  # 여기!
-]
-STATIC_ROOT = BASE_DIR / 'staticfiles'
-STATIC_URL = '/static/'
-WSGI_APPLICATION = "backend.wsgi.application"
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'frontend' / 'dist',                  
+# ]flutter clean
+
+# STATIC_ROOT = BASE_DIR / 'staticfiles'
+# STATIC_URL = '/static/'
+# WSGI_APPLICATION = "backend.wsgi.application"
 
 
 # Database
